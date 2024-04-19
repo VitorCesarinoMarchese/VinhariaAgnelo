@@ -20,7 +20,7 @@ body{
 }
 
 .ph-bold{
-    font-size: 50px;
+    font-size: 30px;
     color: #FFDB96;
     margin: 10px
 }
@@ -35,7 +35,7 @@ body{
 
 .ph {
     color: #FFDB96;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .imagem-fundo{
@@ -59,9 +59,9 @@ body{
 
 .hero h2{
     color: #F1a1a1;
-    width: 400px;
+    width: 250px;
     text-align: end;
-    font-size: 45px;
+    font-size: 25px;
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal;
@@ -89,14 +89,54 @@ body{
     font-style: normal;
 }
 .content button{
-    width: 250px;
-    height: 80px;
+    width: 150px;
+    height: 50px;
     border: none;
     background-color: #171717;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal;
 }
+
+.menu-categoria{
+    display: flex;
+    flex-direction: column;
+}
+
+.lampadas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+}
+.luzes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    opacity: 0.3; 
+    transition: opacity 0.3s ease; 
+}
+.categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+}
+.categorias a{
+    color: #957F56;
+    text-decoration: none;
+}
+
+.categorias a:hover{
+    color: #FFDB96;
+}
+
 

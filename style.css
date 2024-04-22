@@ -1,0 +1,32 @@
+.geral{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.Texto {
+    color: #FFE4AD;
+    display: flex;
+    font-size: large;
+    flex-wrap: wrap;
+ 
+    justify-content: flex-start;
+    
+    flex-direction: column;
+    justify-content: center;
+    text-align: start
+    
+    
+    
+}
+
+.imagem{
+    display: flex;
+    height: 677px;
+    width: 677px;
+    align-items: center;
+}
+
+
+
+
+

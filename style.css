@@ -1,0 +1,46 @@
+.vinhos-finos h2{
+
+    color: #FFE4AD;
+   
+    font-size: 60px;
+    font-weight: 100;
+    text-align: left;
+
+}
+
+.vinhos-finos button{
+
+    background-color: #801818;
+    color:  #E9E9E9;
+    width: 200px;
+    height: 45px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.bandeiras{
+    width: 200px;
+    height: 45px;
+    align-content: center;
+    justify-items:auto;
+    justify-content: space-between;
+    img{
+        height: 44x;
+        width: 44px;
+        }
+    
+}
+
+.corpo{
+    display: flex;
+}
+
+
+.vinhos{
+    justify-items: right;
+    img{
+        height: 500px;
+        width: 500px;
+    }
+}

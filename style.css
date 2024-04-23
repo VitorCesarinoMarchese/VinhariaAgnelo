@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-
 *{
     padding: 0;
     margin: 0;
@@ -139,4 +138,99 @@ body{
     color: #FFDB96;
 }
 
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #070504;
+    color: #FFDB96;
+    padding: 2rem;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+footer .row{
+    justify-content: space-around;
+}
+footer h2{
+    font-size: 32px;
+    margin-bottom: 2.5rem;
+}
+.footer-main{
+    max-height: 150px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.links .wrap{
+    max-height: 100px;
+    width: 138px;
+    align-items: center;
+}
+.links .wrap a{
+    margin-bottom: 1rem;
+    color: #FFDB96;
+    text-decoration: underline transparent;
+    transition: all 1s ease-out;
+    transition: color 500ms ease;
+}
+.links .wrap a:hover{
+    color: #ffa600;
+}
+footer h3{
+    font-size: 24px;
+    margin-bottom: 2.5rem;
+}
+.input-footer div{
+    display: flex;
+}
+.input-footer input{
+    min-width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px 0px 0px 5px;
+    text-indent: 12px;
+}
+.input-footer button{
+    min-width: 50px;
+    height: 50px;
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+    background-color: #FFDB96;
+    transition: background-color 1s ease;
+    cursor: pointer;
+}
+.input-footer button:hover{
+    background-color: #ffa600;
+}
+.footer-line{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    border-top: solid 2px #FFDB96;
+    height: 100px;
+}
+.redes-sociais a{
+    text-decoration: none;
+    color: #FFDB96;
+    font-size: 32px;
+    transition: color 1s ease;
+}
+.redes-sociais a:hover{
+    color: #ffa600
+}
+.redes-sociais{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+.footer-line p{
+    font-size: 16px;
+}
 

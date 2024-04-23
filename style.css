@@ -1,8 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: #240E0E;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.ph-bold{
+    font-size: 30px;
+    color: #FFDB96;
+    margin: 10px
+}
+
+.logo{
+    font-family: "Pinyon Script", cursive;
+    font-weight: 200;
+    font-style: normal;
+    color: #FFDB96;
+    font-size: 60px;
+}
+
+.ph {
+    color: #FFDB96;
+    font-size: 30px;
+}
+
+.imagem-fundo{
+    height: 540px;
+    width: 1000px;
+}
+.hero{
+    background: rgb(89,23,23);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 25%, rgba(128,24,24,1) 100%);
+    max-height: 600px;
+    width: 100%;
+}
+
+.vinho-png{
+    height: 520px;
+    display: flex;
+    position: relative;
+    bottom: 900px;
+    left: 750px;
+}
+
+.hero h2{
+    color: #F1a1a1;
+    width: 250px;
+    text-align: end;
+    font-size: 25px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 2rem;
+}
+
+.retangulo-madeira{
+    width: 100%;
+    position: relative;
+    top: -70px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.content{
+    position: relative;
+    bottom: 570px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 200px;
+    justify-content: space-evenly;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.content button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #171717;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu-categoria{
+    display: flex;
+    flex-direction: column;
+}
+
+.lampadas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+}
+.luzes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    opacity: 0.3; 
+    transition: opacity 0.3s ease; 
+}
+.categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+}
+.categorias a{
+    color: #957F56;
+    text-decoration: none;
+}
+
+.categorias a:hover{
+    color: #FFDB96;
+}
+
+
+
 footer{
     display: flex;
     flex-direction: column;
@@ -96,3 +233,4 @@ footer h3{
 .footer-line p{
     font-size: 16px;
 }
+

@@ -4,6 +4,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+.luminaria img{
+    width: 125px;
+    height: 150px;
+}
+.luminaria{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.luz img{
+    width: 100px;
+    height: 65px;
+}
+.luz{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
 body{
     background-color: black;
 }
@@ -233,4 +251,3 @@ footer h3{
 .footer-line p{
     font-size: 16px;
 }
-

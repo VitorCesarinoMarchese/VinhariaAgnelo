@@ -9,6 +9,7 @@
 }
 
 .vinhos-finos button{
+    
 
     background-color: #801818;
     color:  #E9E9E9;
@@ -38,9 +39,17 @@
 
 
 .vinhos{
+    width: 566px;
+    height: 656px;
+    top: 1529px;
+    left: 1370px;
+    gap: 0px;
+    opacity: 0px;
+    transform: scaleX(-1);
     justify-items: right;
     img{
         height: 500px;
         width: 500px;
+        
     }
 }

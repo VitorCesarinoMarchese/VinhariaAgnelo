@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shotcut icon" href="" />
-    <link rel="stylesheet" href="style.css" />
     <title>Vinheria Agnello</title>
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
 
   <body>
+    <div id="formularioIdade" class="small-screen">
+      <div class="small-screen-content">
+          <h3>Digite sua idade:</h3>
+          <input id="idade" type="number" name="idade" min="0" max="110" placeholder="Digite sua idade...">
+          <p id="aviso"></p>
+          <button onclick="verificarIdade()" type="button">Verificar</button>
+      </div>
+    </div>
     <nav class="navbar">
       <div class="icons-esquerda">
         <i class="ph-bold ph-list"></i>
@@ -148,5 +155,6 @@
         <p>© All rights reserved</p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

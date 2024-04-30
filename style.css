@@ -366,3 +366,62 @@ footer h3 {
 .footer-line p {
     font-size: 16px;
 }
+
+.small-screen{
+    display: block;
+    width: 500px;
+    height: 650px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(82, 82, 82) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    z-index: 9999;
+}
+.small-screen-content{
+    text-align: center;
+}
+.small-screen-content h3{
+    font-size: 40px;
+    margin-top: 45%;
+    margin-bottom: 20px;
+}
+
+.small-screen-content input{
+    width: 32%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.small-screen-content button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #171717;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.small-screen-content p{
+    background-color: #801818;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}

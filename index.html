@@ -1,160 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shotcut icon" href="" />
-    <title>Vinheria Agnello</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-  </head>
 
-  <body>
-    <div id="formularioIdade" class="small-screen">
-      <div class="small-screen-content">
-          <h3>Digite sua idade:</h3>
-          <input id="idade" type="number" name="idade" min="0" max="110" placeholder="Digite sua idade...">
-          <p id="aviso"></p>
-          <button onclick="verificarIdade()" type="button">Verificar</button>
-      </div>
-    </div>
-    <nav class="navbar">
-      <div class="icons-esquerda">
-        <i class="ph-bold ph-list"></i>
-        <i class="ph-bold ph-magnifying-glass"></i>
-      </div>
-      <h1 class="logo">Vinheria Agnello</h1>
-      <i class="ph-bold ph-user-circle"></i>
-    </nav>
-    <div class="hero">
-      <img src="assets/Rectangle2.png" class="imagem-fundo" />
-      <img src="assets/Rectangle3.png" alt="" class="retangulo-madeira" />
-      <div class="content">
-        <h2>Lorem ipsum dolor sit amet consectetur</h2>
-        <button type="button">Lorem Ipsum</button>
-      </div>
-      <img src="assets/image1.png" alt="" class="vinho-png" />
-    </div>
-    <div class="menu-categorias">
-      <div class="lampadas">
-        <img src="assets/image4.png" alt="" />
-        <img src="assets/image4.png" alt="" />
-        <img src="assets/image4.png" alt="" />
-        <img src="assets/image4.png" alt="" />
-      </div>
-      <class class="luzes">
-        <img src="assets/luz.png" alt="" />
-        <img src="assets/luz.png" alt="" />
-        <img src="assets/luz.png" alt="" />
-        <img src="assets/luz.png" alt="" />
-      </class>
-      <div class="categorias">
-        <a href="#">Home</a>
-        <a href="#">Catálogo</a>
-        <a href="#">Agende</a>
-        <a href="#">Contato</a>
-      </div>
-      <img
-        src="assets/madeira-luminaria.jpg"
-        alt="pratileira"
-        class="pratileira"
-      />
-    </div>
-    <div class="col">
-      <div class="row space-between items-center finos">
-        <div class="vinhos-finos">
-          <h2>Vinhos Finos</h2>
-          <button>Ver catálogo</button>
-          <div class="bandeiras">
-            <img
-              src="https://www.countryflags.com/wp-content/uploads/france-flag-png-large.png"
-              alt="Franca"
-            />
-            <img
-              src="https://s3-alpha-sig.figma.com/img/f512/7280/463084c3b07f4e792d6e8c2e70c7710b?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YKvJIVc7yvP3eE~QXHsM3eWiPztfJDRYzO0s4BvisVYk0pHaQE0qsFcrPNdcvel2~FPOQmJEcOxh4GwZX-MaSVu3fsrgpUMZ4ohS46jRvzpjnGTYUiHTZ76aCquQC2eQKp2YRKi34E25S4ymkNCoT2nIr84BiULbwprOu0tmJzvKKhdG1DG76h5aAYDQxT3ykjP-QiPkk2fMqME6D4~6zQrLZLRoamwfU0EbY2fZeVvmot3h0l4uuDcqgHdBx~DkXLeHADkLDxm5rNUeV0BIO5cKFFbyAK8X5iPC0jMkx5Eyo3hVWgxRIsJzwQfIIZg~UpVKkR9j7cd9J-H1kfFpYg__"
-              alt="Portugal"
-            />
-            <img
-              src="https://s3-alpha-sig.figma.com/img/1647/7239/b7b22c016c943da0b09706f79db2c7c6?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oz1IIPOJPDJAWyEPEIMyJrhxGwd38zMX7cZNk-0duMm3yW8mnKkQLGu-HvmgToU1b-AMxL-~tDUzx5DL76p9UuH0oGoBAgXO8yMKzqXbteufdi1nLlR0MpZNmE3GXLyxBABlNWg5qHolCO~MqMHWiUUflXgDU~DwETb3ZlNhec163ORXmM3yQMIMLeOnBpHEuBEIJYHgWf9YwFC4yWCy5vmzLYeMvbjHSn9pD0D2wn2cajFKsV-OyBbfDCz1w8hvyxOpYAXlu8NooDosojTDhYjUCDBqhlmFiVMgfaYWR-~abOjOGKRmqTYzfJuqCbE-XpMkKcGycvs9pU1v83iLQQ__"
-              alt="Espanha"
-            />
-            <img
-              src="https://s3-alpha-sig.figma.com/img/8f5f/98b0/54ce0131da74f30af716048eb27d8f5a?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jMQR1aBoWFU5PmeBdCdytIBn6dPQEAAp3Z41d6hpd3NTTGXKteaYjenPoZ49JALWI3Or7r3QTt8DRxZKbUH9iskRBk9HgqB~EIFs3DRZWuy1Z97a65PPHjuTXCZawCIF0Mxi4C-rYBy9rb4MrV4oTv1IwxjdmcxfkuVvR1KtQv-jAA7LtUT182wJ3DD5VNCo8uucAn7awiNbdyuDJxV44mKEftIQp7wlCpiJjRqVRfP4IwzBHkOzJULlXLtbyAqDnW6oksOkU7Bo3aOJkpI5TZm~4G766PWIqIahnfGVRkyS2fObWDP5bEMuxp2hV5jfSn8GnM7Xb9kkDqWv~AkvCQ__"
-              alt="Chile"
-            />
-          </div>
-        </div>
-          <img class="vinhos"
-            src="https://s3-alpha-sig.figma.com/img/0e97/545a/ebe25e6f592697e4a08c1936ce589a8c?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NV3ZD77PmaMvyqyDUuNAQ~XZbqqIvyYjOrZNsXWBh4WfToYjPWSRuEXcURq8ECj0cpo8LcJD8wNr~xMEhWRVCCxYzcI9iOb~Dhwu-D5OWWBY4c0mhUEmx645ifl2kKhI7BI4N0U4rnGM08p~qI9a5x9~CCjcVavLEtttOQElfGH0YojO8d4BZ29w8qQQLhF0jdZNcPm10Vn2eh9tkoOcI-mBkB3xyXJHtGdPBK9lE8WIr7OFK0SLSo4fefkb5aZ3KHXSNqcR9lFaf~Bwf5UMHpQCRNbw5Znq3b~AUp-MHAFSKtFqp2a6HI4gVFK7clc6pAo4Xk9JxiQZUbOx-AW0tQ__"
-            alt="4 vinhos"
-          />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shotcut icon" href="" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Vinheria Agnello</title>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
 
-      </div>
-      <img
-        src="assets/madeira-luminaria.jpg"
-        alt="pratileira"
-        class="pratileira"
-      />
+<body>
+  <nav class="navbar">
+    <div class="icons-esquerda">
+      <i class="ph-bold ph-list"></i>
+      <i class="ph-bold ph-magnifying-glass"></i>
     </div>
-    <div class="col">
-      <div class="row">
-        <div class="imagem">
-          <img src="assets/Barril.png" alt="foto vinhos" />
-        </div>
-        <div class="Texto">
-          <h2>Nossa História</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Repudiandae vitae, facere aut officiis consectetur cumque odit culpa
-            fugiat voluptatem excepturi, sint doloribus eaque, repellendus nihil
-            voluptate. Deleniti sit suscipit dolorem.
-          </p>
-        </div>
-      </div>
-      <img
-        src="assets/madeira-luminaria.jpg"
-        alt="pratileira"
-        class="pratileira"
-      />
+    <h1 class="logo">Vinheria Agnello</h1>
+    <i class="ph-bold ph-user-circle"></i>
+  </nav>
+  <div class="hero">
+    <img src="assets/Rectangle2.png" class="imagem-fundo" />
+    <img src="assets/Rectangle3.png" alt="" class="retangulo-madeira" />
+    <div class="content">
+      <h2>Lorem ipsum dolor sit amet consectetur</h2>
+      <button type="button">Lorem Ipsum</button>
     </div>
-    <footer>
-      <div class="row footer-main">
-        <div class="contact">
-          <h2>Logo</h2>
-          <p>+55 (11) 12345-6789</p>
-          <p>email@email.com</p>
+    <img src="assets/image1.png" alt="" class="vinho-png" />
+  </div>
+  <div class="menu-categorias">
+    <div class="lampadas">
+      <img src="assets/image4.png" alt="" />
+      <img src="assets/image4.png" alt="" />
+      <img src="assets/image4.png" alt="" />
+      <img src="assets/image4.png" alt="" />
+    </div>
+    <class class="luzes">
+      <img src="assets/luz.png" alt="" />
+      <img src="assets/luz.png" alt="" />
+      <img src="assets/luz.png" alt="" />
+      <img src="assets/luz.png" alt="" />
+    </class>
+    <div class="categorias">
+      <a href="#">Home</a>
+      <a href="#">Catálogo</a>
+      <a href="#">Agende</a>
+      <a href="#">Contato</a>
+    </div>
+    <img src="assets/madeira-luminaria.jpg" alt="pratileira" class="pratileira" />
+  </div>
+  <div class="col">
+    <div class="row space-between items-center finos">
+      <div class="vinhos-finos">
+        <h2>Vinhos Finos</h2>
+        <div class="comprar">
+          <button onclick="IrParaPaginaDeCompra()">Comprar</button>
+
         </div>
-        <div class="links col">
-          <h3>Lorem Ipsum</h3>
-          <div class="wrap col">
-            <a href="/">Lorem</a>
-            <a href="/">Lorem</a>
-            <a href="/">Lorem</a>
-            <a href="/">Lorem</a>
-          </div>
-        </div>
-        <div class="input-footer">
-          <h3>Lorem</h3>
-          <div>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Lorem Ipsum"
-            />
-            <button><i class="ph ph-arrow-right"></i></button>
-          </div>
+
+        <div class="bandeiras">
+          <img src="https://www.countryflags.com/wp-content/uploads/france-flag-png-large.png" alt="Franca" />
+          <img
+            src="https://s3-alpha-sig.figma.com/img/f512/7280/463084c3b07f4e792d6e8c2e70c7710b?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YKvJIVc7yvP3eE~QXHsM3eWiPztfJDRYzO0s4BvisVYk0pHaQE0qsFcrPNdcvel2~FPOQmJEcOxh4GwZX-MaSVu3fsrgpUMZ4ohS46jRvzpjnGTYUiHTZ76aCquQC2eQKp2YRKi34E25S4ymkNCoT2nIr84BiULbwprOu0tmJzvKKhdG1DG76h5aAYDQxT3ykjP-QiPkk2fMqME6D4~6zQrLZLRoamwfU0EbY2fZeVvmot3h0l4uuDcqgHdBx~DkXLeHADkLDxm5rNUeV0BIO5cKFFbyAK8X5iPC0jMkx5Eyo3hVWgxRIsJzwQfIIZg~UpVKkR9j7cd9J-H1kfFpYg__"
+            alt="Portugal" />
+          <img
+            src="https://s3-alpha-sig.figma.com/img/1647/7239/b7b22c016c943da0b09706f79db2c7c6?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oz1IIPOJPDJAWyEPEIMyJrhxGwd38zMX7cZNk-0duMm3yW8mnKkQLGu-HvmgToU1b-AMxL-~tDUzx5DL76p9UuH0oGoBAgXO8yMKzqXbteufdi1nLlR0MpZNmE3GXLyxBABlNWg5qHolCO~MqMHWiUUflXgDU~DwETb3ZlNhec163ORXmM3yQMIMLeOnBpHEuBEIJYHgWf9YwFC4yWCy5vmzLYeMvbjHSn9pD0D2wn2cajFKsV-OyBbfDCz1w8hvyxOpYAXlu8NooDosojTDhYjUCDBqhlmFiVMgfaYWR-~abOjOGKRmqTYzfJuqCbE-XpMkKcGycvs9pU1v83iLQQ__"
+            alt="Espanha" />
+          <img
+            src="https://s3-alpha-sig.figma.com/img/8f5f/98b0/54ce0131da74f30af716048eb27d8f5a?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jMQR1aBoWFU5PmeBdCdytIBn6dPQEAAp3Z41d6hpd3NTTGXKteaYjenPoZ49JALWI3Or7r3QTt8DRxZKbUH9iskRBk9HgqB~EIFs3DRZWuy1Z97a65PPHjuTXCZawCIF0Mxi4C-rYBy9rb4MrV4oTv1IwxjdmcxfkuVvR1KtQv-jAA7LtUT182wJ3DD5VNCo8uucAn7awiNbdyuDJxV44mKEftIQp7wlCpiJjRqVRfP4IwzBHkOzJULlXLtbyAqDnW6oksOkU7Bo3aOJkpI5TZm~4G766PWIqIahnfGVRkyS2fObWDP5bEMuxp2hV5jfSn8GnM7Xb9kkDqWv~AkvCQ__"
+            alt="Chile" />
         </div>
       </div>
-      <div class="row footer-line">
-        <div class="redes-sociais">
-          <a href="/"><i class="ph ph-linkedin-logo"></i></a>
-          <a href="/"><i class="ph ph-facebook-logo"></i></a>
-          <a href="/"><i class="ph ph-twitter-logo"></i></a>
-        </div>
-        <p>© All rights reserved</p>
+      <img class="vinhos"
+        src="https://s3-alpha-sig.figma.com/img/0e97/545a/ebe25e6f592697e4a08c1936ce589a8c?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NV3ZD77PmaMvyqyDUuNAQ~XZbqqIvyYjOrZNsXWBh4WfToYjPWSRuEXcURq8ECj0cpo8LcJD8wNr~xMEhWRVCCxYzcI9iOb~Dhwu-D5OWWBY4c0mhUEmx645ifl2kKhI7BI4N0U4rnGM08p~qI9a5x9~CCjcVavLEtttOQElfGH0YojO8d4BZ29w8qQQLhF0jdZNcPm10Vn2eh9tkoOcI-mBkB3xyXJHtGdPBK9lE8WIr7OFK0SLSo4fefkb5aZ3KHXSNqcR9lFaf~Bwf5UMHpQCRNbw5Znq3b~AUp-MHAFSKtFqp2a6HI4gVFK7clc6pAo4Xk9JxiQZUbOx-AW0tQ__"
+        alt="4 vinhos" />
+
+    </div>
+    <img src="assets/madeira-luminaria.jpg" alt="pratileira" class="pratileira" />
+  </div>
+  <div class="col">
+    <div class="row">
+      <div class="imagem">
+        <img src="assets/Barril.png" alt="foto vinhos" />
       </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+      <div class="Texto">
+        <h2>Nossa História</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Repudiandae vitae, facere aut officiis consectetur cumque odit culpa
+          fugiat voluptatem excepturi, sint doloribus eaque, repellendus nihil
+          voluptate. Deleniti sit suscipit dolorem.
+        </p>
+      </div>
+    </div>
+    <img src="assets/madeira-luminaria.jpg" alt="pratileira" class="pratileira" />
+  </div>
+  <footer>
+    <div class="row footer-main">
+      <div class="contact">
+        <h2>Logo</h2>
+        <p>+55 (11) 12345-6789</p>
+        <p>email@email.com</p>
+      </div>
+      <div class="links col">
+        <h3>Lorem Ipsum</h3>
+        <div class="wrap col">
+          <a href="/">Lorem</a>
+          <a href="/">Lorem</a>
+          <a href="/">Lorem</a>
+          <a href="/">Lorem</a>
+        </div>
+      </div>
+      <div class="input-footer">
+        <h3>Lorem</h3>
+        <div>
+          <input type="email" name="email" id="email" placeholder="Lorem Ipsum" />
+          <button><i class="ph ph-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="row footer-line">
+      <div class="redes-sociais">
+        <a href="/"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="/"><i class="ph ph-facebook-logo"></i></a>
+        <a href="/"><i class="ph ph-twitter-logo"></i></a>
+      </div>
+      <p>© All rights reserved</p>
+    </div>
+  </footer>
+</body>
+
 </html>

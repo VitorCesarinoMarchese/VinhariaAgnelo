@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="comprar.css">
+    <title>Comprar</title>
+  </head>
+  <body>
+    <div class="detalhe none">
+      <img src="" alt="Produto" class="img-vinho" />
+      <h2 class="nome-vinho" id="nome-vinho"></h2>
+      <p class="text-vinho"></p>
+      <p class="preco-vinho"></p>
+      <button class="comprar-vinho" onclick="sum()">Comprar</button>
+    </div>
+    <div class="conteudo">
+        <div class="catalogo">
+          <h1>Catalogo</h1>
+          <div class="vinho" id="vinho1">
+            <img src="https://media.discordapp.net/attachments/1220513222520606762/1234675765514211449/shopping.png?ex=663198e9&is=66304769&hm=277eb4d3c70618a5e718973dbc71483cc3f679243d9470f10d8f89639712d7de&=&format=webp&quality=lossless" alt="" id="img-vinho" />
+            <p id="nome-vinho">Vieira de Souza Porto Fine Ruby</p>
+            <p id="preco-vinho">240</p>
+            <p id="vinho-desc" class="none">O vinho Vieira de Sousa Porto Fine Ruby apresenta cor rubi profundo, concentrado. Aroma intenso de cerejas e ameixas maduras, junto de notas florais e de ervas frescas. Encorpado, com taninos presentes, sedosos, belo equilíbrio gustativo e longo final.            </p>
+            <button onclick="irDetalheVinho(1)">Comprar</button>
+          </div>
+          <div class="vinho" id="vinho2">
+            <img src="https://media.discordapp.net/attachments/1220513222520606762/1234675936608256060/shopping.png?ex=66319912&is=66304792&hm=8361b62be201ef50045ce704ed8c479054544888a4c1d8fa37ed8f725eb4ba57&=&format=webp&quality=lossless" alt="" id="img-vinho" />
+            <p id="nome-vinho">Vinho Tinto Seco de Mesa Tradicional 720ml - Canguera</p>
+            <p id="preco-vinho">300</p>
+            <p id="vinho-desc" class="none">O vinho seco é uma bebida que não tem o sabor adocicado, mas sim um gosto mais ácido e mais concentrado. São apenas 4g de açúcar por litro de vinho. É uma bebida que explora mais o paladar e o olfato, oferecendo sensações e sabores, sem a interferência do açúcar presente em outras versões.</p>
+            <button onclick="irDetalheVinho(2)">Comprar</button>
+          </div>
+          <div class="vinho" id="vinho3">
+            <img src="https://media.discordapp.net/attachments/1220513222520606762/1234676359272468490/shopping.png?ex=66319977&is=663047f7&hm=3da9a5feff2feb546ec3e7b584273fa2b2cbf0235e5f539bbbc4e1db8c016381&=&format=webp&quality=lossless" alt="" id="img-vinho" />
+            <p id="nome-vinho">Vinho Taylor's Porto LBV</p>
+            <p id="preco-vinho">400</p>
+            <p id="vinho-desc" class="none">O Vinho do Porto LBV apresenta-se tinto ou retinto e é muito encorpado e estruturado na boca. É elaborado com uvas de um só ano, sendo engarrafado entre quatro a seis anos após a vindima.</p>
+            <button onclick="irDetalheVinho(3)">Comprar</button>
+          </div>
+          <div class="vinho" id="vinho4">
+            <img src="https://media.discordapp.net/attachments/1220513222520606762/1234676891705806900/shopping.png?ex=663199f6&is=66304876&hm=b13dbac6506757f2e8b4cffbae4aa8ea41e5a836836fc7b364c24ddd5f183cdf&=&format=webp&quality=lossless" alt="" id="img-vinho" />
+            <p id="nome-vinho">Vinho Del Fin Del Mundo - Special Blend - 750ml</p>
+            <p id="preco-vinho">700</p>
+            <p id="vinho-desc" class="none">O Vinho Bodega del Fin del Mundo Special Blend Reserva é um delicioso corte de Malbec, Cabernet Sauvignon e Merlot, da região da Patagônia. Elegante e intenso, exibe aromas de frutas vermelhas, nuances de nozes e especiarias, além de notas de chocolate e tabaco.</p>
+            <button onclick="irDetalheVinho(4)">Comprar</button>
+          </div>
+          </div>
+          <div class="cupom">
+            <h2>Cupom</h2>
+            <label for="cupom">Cupom de desconto:</label>
+            <input type="text" id="cupom" />
+            <button id="btnclicar" onclick="aplicar()">Aplicar</button>
+            <h3>desconto:</h3>
+            <p id="desconto"></p>
+            <h3>Preco: </h3>
+            <p id="ValorFinal"></p>
+          </div>
+        </div>
+    </div>
+    <script src="comprar.js"></script>
+  </body>
+</html>

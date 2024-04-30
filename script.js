@@ -1,8 +1,6 @@
-function verificarIdade() {
-    const inputIdade = document.getElementById('idade');
-    const aviso = document.getElementById('aviso');
-    const formularioIdade = document.getElementById('formularioIdade');
-
+function IrParaPaginaDeCompra(){
+    window.location.href='Comprar.html'
+}
     const idade = parseInt(inputIdade.value);
 
     if (isNaN(idade) || idade < 0 || idade > 110) {
@@ -27,3 +25,4 @@ function closePopup() {
     document.getElementById('popup').style.display = 'block';
     document.getElementById('contact-form').reset(); 
   });
+

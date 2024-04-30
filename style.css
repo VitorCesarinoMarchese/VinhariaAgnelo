@@ -32,6 +32,22 @@
     font-size: 18px;
     cursor: pointer;
 }
+.comprar{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+.comprar button{
+    background-color: #FFDB96;
+    color:  #801818;
+    width: 300px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    
+
+}
 
 .bandeiras{
     width: 250px;
